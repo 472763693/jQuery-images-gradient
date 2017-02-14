@@ -1,0 +1,153 @@
+/* @charset="utf-8" */
+#focus-box { 
+	position: relative; 
+	width: 660px; 
+	height: 380px; 
+	background-color: #000; 
+}  
+#focus-box img { 
+	max-width: 100%;
+	display: block; 
+} 
+#focus-box .fcon { 
+	position: relative; 
+	display: none; 
+	background: #000;  
+}
+#focus-box .prev, #focus-box .next {
+	position: absolute;
+}
+#focus-box .direction-btn {
+	display: none;
+	background: #070606;
+	font-size: 2rem;
+	font-weight: bolder;
+	width: 44px;
+	height: 88px;
+	color: #fff;
+	line-height: 88px;
+	text-align: center;
+	transition: all .6s ease;
+	z-index: 3;
+}
+#focus-box .prev {
+	top: 35%;
+	left: 0;
+	cursor: pointer; 
+}  
+#focus-box .next {
+	top: 35%; 
+	right: 0;  
+	cursor: pointer;
+}  
+
+#focus-box .shadow .title {
+	width: 260px; 
+	height: 65px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+#focus-box .shadow .title a { 
+	text-decoration: none; 
+	color: #fff; 
+	font-size: 14px; 
+	font-weight: bolder; 
+	overflow: hidden; 
+}
+#focus-box .btn { 
+	position: absolute; 
+	bottom: 34px; 
+	left: 510px; 
+	overflow: hidden; 
+	zoom: 1;
+} 
+#focus-box .btn a {
+	position: relative; 
+	display: inline-block; 
+	width: 13px; 
+	height: 13px; 
+	border-radius: 7px; 
+	margin: 0 5px;
+	color: #B0B0B0;
+	font: 12px/15px "microsoft yahei"; 
+	text-decoration: none; 
+	text-align: center; 
+	outline: 0; 
+	background: #D9D9D9; 
+}  
+#focus-box .btn a:hover, .#focus-box .btn a.current {  
+	cursor: pointer;
+	background: #fc114a;
+}  
+#focus-box .fPic { 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+}  
+#focus-box .D1fBt { 
+	overflow: hidden; 
+	zoom: 1;  
+	height: 16px; 
+	z-index: 10;
+}  
+#focus-box .shadow { 
+	width: 100%; 
+	position: absolute; 
+	bottom: 0;
+	left: 0px; 
+	z-index: 2; 
+	height: 80px; 
+	line-height: 80px; 
+	background: rgba(0,0,0,0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  
+	display: block;  
+	text-align: left; 
+}  
+#focus-box .shadow a { 
+	text-decoration: none; 
+	color: #fff; 
+	font-size: 20px; 
+	overflow: hidden; 
+	margin-left: 10px; 
+}  
+  
+#focus-box .fbg { 
+	bottom: 25px; 
+	right: 40px; 
+	position: absolute; 
+	height: 21px; 
+	text-align: center; 
+	z-index: 3; 
+}  
+#focus-box .fbg div {
+	margin: 4px auto 0;
+	overflow: hidden;
+	zoom:1;
+	height: 14px;
+}    
+#focus-box .D1fBt a {
+	position: relative; 
+	display: inline; 
+	width: 12px; 
+	height: 12px; 
+	border-radius: 7px; 
+	margin: 0 5px;
+	color: #B0B0B0;
+	font: 12px/15px "\5B8B\4F53"; 
+	text-decoration: none; 
+	text-align: center; 
+	outline: 0; 
+	float: left; 
+	background: #D9D9D9; 
+}    
+#focus-box .D1fBt .current, #focus-box .D1fBt a:hover {
+	background: #fc114a;
+}    
+#focus-box .D1fBt img {
+	display: none;
+}    
+#focus-box .D1fBt i {
+	display: none; 
+	font-style: normal; 
+}    
+
